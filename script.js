@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         anchor.addEventListener("click", function(event) {
             const href = this.getAttribute("href");
 
-            if (href.startsWith("#")) {  // Only prevent default for internal links
+            if (href.startsWith("#")) {  
                 event.preventDefault();
                 const targetId = href.substring(1);
                 document.getElementById(targetId).scrollIntoView({
