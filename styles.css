@@ -16,6 +16,20 @@
   --border-color: #000000;
 }
 
+#theme-switch{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--blue-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 40px;
+}
+
 /* General Styling */
 body {
   margin: 0;
