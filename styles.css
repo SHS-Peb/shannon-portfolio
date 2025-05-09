@@ -30,6 +30,22 @@
   right: 40px;
 }
 
+#theme-switch svg{
+  fill: var(--base-color)
+}
+
+#theme-switch svg:last-child{
+  display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
+
 /* General Styling */
 body {
   margin: 0;
