@@ -1,5 +1,11 @@
 let darkmode = localStorage.getItem('darkmode');
 const themeSwitch = document.getElementById("theme-switch")
+const popup = document.getElementById('job-popup');
+const closeBtn = document.getElementById('close-popup');
+
+closeBtn.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
 
 const enableDarkmode = () => {
     document.body.classList.add('darkmode')

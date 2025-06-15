@@ -6,8 +6,16 @@
     <title>Shannon Lowe - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <meta name="description" content="Shannon Lowe is a Sydney-based full stack developer passionate about clean design, accessibility, and creative tech.">
+
 </head>
 <body>
+  <div id="job-popup" class="job-popup">
+  <p>I'm currently open to junior developer opportunities! Let’s connect.</p>
+  <button id="close-popup">&times;</button>
+</div>
+
+    <main>
     <header>
         <nav>
                 <a href="#home">Home</a>
@@ -44,12 +52,12 @@
        <div class="about-content">
         <div>
             <h3>Hi, I’m Shannon</h3>
-            <p>I’m a Sydney-based developer with a passion for building things that make life easier, cleaner, and more connected. In pursuit of this, I have completed the Full Stack Coding Bootcamp with the University of Sydney and have continued expanding my skills ever since. Along the way, I’ve attended key industry events such as CLG Presents: The Insider with Macquarie and Code Like a Girl x TikTok, gaining valuable insights into the tech industry and the people shaping it.</p>
+            <p>I’m a Sydney-based developer with a passion for building things that make life easier, cleaner, and more connected. Ever since I wrote my first line of code, I realized that coding is more than just commands and syntax — it’s a way to bring ideas to life and create solutions that connect people in meaningful ways. For me, coding is a creative act of problem-solving that turns complexity into clarity, making everyday experiences simpler and more joyful. I’m driven by the belief that behind every great app or tool is a story — a story of someone’s challenge, hope, or dream — and I want my work to be part of those stories, helping others move forward with ease and confidence</p>
         </div>
 
         <div>
             <h3>Always Learning, Always Growing</h3>
-            <p>What draws me to coding is the constant opportunity to learn. I am always learning new skills by pursuing personal projects, as highlighted in my blog, where I explore new technologies and take on challenges that push me to grow.</p>
+            <p>In pursuit of this, I have completed the Full Stack Coding Bootcamp with the University of Sydney and have continued expanding my skills ever since. Along the way, I’ve attended key industry events such as CLG Presents: The Insider with Macquarie and Code Like a Girl x TikTok, gaining valuable insights into the tech industry and the people shaping it. I am always learning new skills by pursuing personal projects, as highlighted in my blog, where I explore new technologies and take on challenges that push me to grow.</p>
             <p>I’m passionate about creating clean, functional designs while always looking for ways to improve, refactor, and grow.</p>
         </div>
 
@@ -76,6 +84,27 @@
     </div>
     </section>
 
+    <section id="spotlight" class="projects">
+        <h2>Spotlight</h2>
+        <div class="grid">
+            <a href="https://tech-talk-in-pink.blogspot.com/2025/03/leveling-up-what-i-learned-from.html" class="project" target="_blank">
+                <img src="images/blog-post-one.png" alt="Blog Post Image">
+              </a>
+            <a href="https://tech-talk-in-pink.blogspot.com/2025/03/nfc-digital-business-card.html" class="project" target="_blank">
+                <img src="images/blog-post-two.png" alt="Project Image">
+                </a>
+            <a href="http://vt.tiktok.com/ZShhxhm4J/" class="project" target="_blank">
+                <img src="images/tiktok.PNG" alt="Project Image">
+                </a>
+            <a href="https://tech-talk-in-pink.blogspot.com/2025/04/learning-a-new-coding-language.html" class="project" target="_blank">
+                <img src="images/blog-post-three.PNG" alt="Project Image">
+                </a>
+            <a href="https://tech-talk-in-pink.blogspot.com/2025/04/ai-study-buddy.html" class="project" target="_blank">
+                <img src="images/blog-post-four" alt="Project Image">
+                </a>
+        </div>
+    </section>
+
     <section id="projects" class="projects">
         <h2>Projects</h2>
         <div class="grid">
@@ -97,28 +126,8 @@
         </div>
     </section>
 
-    <section id="spotlight" class="projects">
-        <h2>Spotlight</h2>
-        <div class="grid">
-            <a href="https://tech-talk-in-pink.blogspot.com/2025/03/leveling-up-what-i-learned-from.html" class="project" target="_blank">
-                <img src="images/blog-post-one.png" alt="Blog Post Image">
-              </a>
-            <a href="https://tech-talk-in-pink.blogspot.com/2025/03/nfc-digital-business-card.html" class="project" target="_blank">
-                <img src="images/blog-post-two.png" alt="Project Image">
-                </a>
-            <a href="http://vt.tiktok.com/ZShhxhm4J/" class="project" target="_blank">
-                <img src="images/tiktok.PNG" alt="Project Image">
-                </a>
-            <a href="https://tech-talk-in-pink.blogspot.com/2025/04/learning-a-new-coding-language.html" class="project" target="_blank">
-                <img src="images/blog-post-three.PNG" alt="Project Image">
-                </a>
-            <a href="https://tech-talk-in-pink.blogspot.com/2025/04/ai-study-buddy.html" class="project" target="_blank">
-                <img src="images/blog-post-four" alt="Project Image">
-                </a>
-        </div>
-    </section>
     
-
+    <section class="contact-container">
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <div class="links">
@@ -129,11 +138,12 @@
             <a href="https://www.tiktok.com/@techtalkinpink" target="_blank">TikTok</a>
         </div>
     </section>
+    </section>
 
     <footer>
         <p>Made By Shannon Lowe</p>
     </footer>
-
+</main>
     <script src="script.js"></script>
 </body>
 </html>
